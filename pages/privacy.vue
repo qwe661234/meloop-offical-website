@@ -1,5 +1,5 @@
 <template>
-  <div> Home </div>
+  <div> privacy </div>
 </template>
 
 <script>
