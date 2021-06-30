@@ -1,5 +1,5 @@
 export const FEATURELIST = [{
-        img: "/images/pink.webp",
+        img: require('~/assets/images/pink.webp'),
         title: "戀愛小怪獸",
         subtitle: "為你的戀情增溫",
         featureOneText: "一對一的戀愛教練，提供感情建議",
@@ -7,7 +7,7 @@ export const FEATURELIST = [{
         featureThreeText: "解鎖小怪獸等級使出超強技能",
     },
     {
-        img: "/images/purple.webp",
+        img: require('~/assets/images/purple.webp'),
         title: "愛情の制約理論",
         subtitle: "每天30分鐘套牢他／她",
         featureOneText: "這麼做，她就會不知不覺的想念你",
@@ -15,7 +15,7 @@ export const FEATURELIST = [{
         featureThreeText: "固定模式而有記憶點的互動",
     },
     {
-        img: "/images/chat.webp",
+        img: require('~/assets/images/chat.webp'),
         title: "導入生命教練概念",
         subtitle: "五大人格理論成就任務",
         featureOneText: "我們相信認識自己，瞭解自己， 才能做好自己，進而活出美好自我",
