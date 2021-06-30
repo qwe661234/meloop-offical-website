@@ -1,3 +1,8 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+        base: '/meloop-offical-website/'
+    }
+} : {}
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
@@ -38,7 +43,6 @@ export default {
     build: {
         vendor: ['element-ui'],
     },
-    router: {
-        base: '/meloop-offical-website/'
-    }
+    /* original options */
+    ...routerBase
 }
