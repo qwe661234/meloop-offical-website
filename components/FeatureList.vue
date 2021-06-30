@@ -9,7 +9,7 @@
     <transition name="feature1">
     <el-row v-if="show">
       <Feature
-        img="/images/feature1.svg"
+        :img="require('~/assets/images/feature1.svg')"
         count="1"
         :text="feature.featureOneText"
       />
@@ -18,7 +18,7 @@
     <transition name="feature2">
     <el-row v-if="show">
       <Feature
-        img="/images/feature2.svg"
+        :img="require('~/assets/images/feature2.svg')"
         count="2"
         :text="feature.featureTwoText"
       />
@@ -27,7 +27,7 @@
     <transition name="feature3">
     <el-row v-if="show">
       <Feature
-        img="/images/feature3.svg"
+        :img="require('~/assets/images/feature3.svg')"
         count="3"
         :text="feature.featureThreeText"
       />

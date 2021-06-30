@@ -1,7 +1,7 @@
 <template>
     <transition name="storeIcon">
     <el-col  :offset="6" :span="10" v-if="show">
-        <img src="/images/getMonster.webp" alt="getMonster" class="getMonsterImg">
+        <img :src="require('~/assets/images/getMonster.webp')" alt="getMonster" class="getMonsterImg">
     </el-col>
     </transition>
 </template>

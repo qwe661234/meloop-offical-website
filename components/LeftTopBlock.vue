@@ -22,7 +22,7 @@
             href="https://apps.apple.com/tw/app/me-loop-%E6%8E%A2%E7%B4%A2%E7%94%9F%E6%B4%BB%E3%81%AE%E6%AF%8F%E4%B8%80%E6%AD%A5/id1532001343"
           >
             <img
-              src="/images/appleStore.svg"
+              :src="require('~/assets/images/appleStore.svg')"
               alt="appStore"
               class="storeIcon"
             />
@@ -33,7 +33,7 @@
             href="https://play.google.com/store/apps/details?id=fun.meloop.app"
           >
             <img
-              src="/images/googlePlay.svg"
+              :src="require('~/assets/images/googlePlay.svg')"
               alt="googlePlay"
               class="storeIcon"
             />

@@ -1,7 +1,7 @@
 <template>
 <transition name="storeIcon">
     <div v-if="show">
-      <img src="/images/pinkMonster.svg" alt="pinkMonster" class="pink">
+      <img :src="require('~/assets/images/pinkMonster.svg')" alt="pinkMonster" class="pink">
     </div>
 </transition>
 </template>

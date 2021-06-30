@@ -4,10 +4,10 @@
         <el-row class="titleText">聯絡我們</el-row>
         <el-row>
           <a href="https://www.facebook.com/i.loop.u/"
-            ><img src="/images/grayFbIcon.png" class="iconImg"
+            ><img :src="require('~/assets/images/grayFbIcon.png')" class="iconImg"
           /></a>
           <a href="https://www.instagram.com/i.loop.u/"
-            ><img src="/images/grayIgIcon.png" class="iconImg"
+            ><img :src="require('~/assets/images/grayIgIcon.png')" class="iconImg"
           /></a>
         </el-row>
       </el-col>

@@ -3,7 +3,7 @@
   <el-row type="flex" align="middle">
     <el-col>
       <nuxt-link to="/"
-        ><img src="/images/logo.png" alt="logo" class="logo"
+        ><img :src="require('~/assets/images/logo.png')" alt="logo" class="logo"
       /></nuxt-link>
     </el-col>
     <el-col :offset="7.5" :span="4">
@@ -14,12 +14,12 @@
     </el-col>
     <el-col :span="2">
       <a href="https://www.facebook.com/i.loop.u/"
-        ><img src="/images/fbIcon.png" alt="fbIcon" class="iconImg"
+        ><img :src="require('~/assets/images/fbIcon.png')" alt="fbIcon" class="iconImg"
       /></a>
     </el-col>
     <el-col :span="2">
       <a href="https://www.instagram.com/i.loop.u/"
-        ><img src="/images/igIcon.png" alt="igIcon" class="iconImg"
+        ><img :src="require('~/assets/images/igIcon.png')" alt="igIcon" class="iconImg"
       /></a>
     </el-col>
   </el-row>

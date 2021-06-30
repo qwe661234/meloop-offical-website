@@ -38,7 +38,4 @@ export default {
     build: {
         vendor: ['element-ui'],
     },
-    router: {
-        base: '/meloop-offical-website/'
-    }
 }
