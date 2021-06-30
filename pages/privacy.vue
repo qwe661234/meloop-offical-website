@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="section purple">
+    <div class="sectionPurple">
       <div dclass="text">
         <p>
           非常歡迎您光臨「MeLoop」（以下簡稱本網站），為了讓您能夠安心使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：

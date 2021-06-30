@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="section purple">
+    <div class="sectionPurple">
       <div class="text">
         <p>上次修訂時間：2020/10/12</p>
         <p>
@@ -78,7 +78,7 @@
         </p>
       </div>
     </div>
-    <div class="section blue">
+    <div class="sectionBlue">
       <div class="text">
         <h3>六、安全性；您與其他使用者的互動</h3>
         <p>
@@ -228,7 +228,7 @@
         </p>
       </div>
     </div>
-    <div class="section pink">
+    <div class="sectionPink">
       <div class="text">
         <h3>十三、責任限制</h3>
         <p>

@@ -1,0 +1,59 @@
+@keyframes backInLeft {
+    0% {
+        transform: translateX(-2000px) scale(0.7);
+        opacity: 0.7;
+    }
+    80% {
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.backInLeft {
+    animation: backInLeft 1s;
+}
+
+.plainText-enter,
+.purpleText-enter,
+.storeIcon-enter {
+    opacity: 0;
+}
+
+.purpleText-enter-active {
+    transition: opacity .5s 1s;
+}
+
+.plainText-enter-active {
+    transition: opacity .5s 2s;
+}
+
+.storeIcon-enter-active {
+    transition: opacity .5s 3s;
+}
+
+.pinkText-enter,
+.feature1-enter,
+.feature2-enter,
+.feature3-enter {
+    opacity: 0;
+}
+
+.pinkText-enter-active {
+    transition: opacity .5s;
+}
+
+.feature1-enter-active {
+    transition: opacity .5s 1s;
+}
+
+.feature2-enter-active {
+    transition: opacity .5s 2s;
+}
+
+.feature3-enter-active {
+    transition: opacity .5s 3s;
+}

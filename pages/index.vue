@@ -1,7 +1,20 @@
 <template>
-  <div> Home </div>
+  <div class="fontStyle">
+    <div class="sectionPurple">
+      <el-row type="flex" align="middle">
+        <LeftTopBlock />
+        <RightTopBlock />
+      </el-row>
+    </div>
+    <MiddleBlock />
+    <div class="sectionBlue">
+      <BottomBlock />
+    </div>
+  </div>
 </template>
 
 <script>
-  export default {};
 </script>
+
+<style scoped>
+</style>
