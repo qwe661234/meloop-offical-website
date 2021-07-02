@@ -13,29 +13,22 @@
     }
 }
 
+@mixin opacity-transition($delay) {
+    transition: {
+        property: opacity;
+        duration: 0.5s;
+        delay: $delay
+    }
+}
+
 .backInLeft {
     animation: backInLeft 1s;
 }
 
 .plainText-enter,
 .purpleText-enter,
-.storeIcon-enter {
-    opacity: 0;
-}
-
-.purpleText-enter-active {
-    transition: opacity .5s 1s;
-}
-
-.plainText-enter-active {
-    transition: opacity .5s 2s;
-}
-
-.storeIcon-enter-active {
-    transition: opacity .5s 3s;
-}
-
 .pinkText-enter,
+.storeIcon-enter,
 .feature1-enter,
 .feature2-enter,
 .feature3-enter {
@@ -43,17 +36,20 @@
 }
 
 .pinkText-enter-active {
-    transition: opacity .5s;
+    @include opacity-transition(0s)
 }
 
+.purpleText-enter-active,
 .feature1-enter-active {
-    transition: opacity .5s 1s;
+    @include opacity-transition(1s)
 }
 
+.plainText-enter-active,
 .feature2-enter-active {
-    transition: opacity .5s 2s;
+    @include opacity-transition(2s)
 }
 
+.storeIcon-enter-active,
 .feature3-enter-active {
-    transition: opacity .5s 3s;
+    @include opacity-transition(3s)
 }

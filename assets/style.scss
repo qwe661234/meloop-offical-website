@@ -1,0 +1,47 @@
+%purple {
+    color: #b1aee8;
+}
+
+%pink {
+    color: #ff959a;
+}
+
+.section {
+    font-style: normal;
+    padding: 0px 260px 0px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &.purple {
+        padding-top: 12px;
+        background-image: url("https://meloop.fun/_nuxt/img/6a7d256.svg");
+        background-position: top right;
+    }
+    &.blue {
+        background-image: url("https://meloop.fun/_nuxt/img/832e938.svg");
+    }
+    &.pink {
+        background-position: bottom right;
+        background-image: url("https://meloop.fun/_nuxt/img/86310d8.svg");
+    }
+}
+
+.advertise {
+    &.label {
+        font-size: 28px;
+        line-height: 41px;
+        letter-spacing: 0.05em;
+        font-family: Noto Sans TC;
+        color: #353b55;
+        font-weight: 700;
+    }
+    &.plainText {
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: left;
+        font-family: Noto Sans TC;
+        color: #353b55;
+        margin-top: 20px;
+    }
+}
