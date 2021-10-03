@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="section purple">
             <div class="advertise label">{{ advText.label }}</div>
             <div class="advertise plainText">

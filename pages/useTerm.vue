@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="section purple">
             <div>
                 <p>上次修訂時間：2020/10/12</p>

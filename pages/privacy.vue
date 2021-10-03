@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="section purple">
             <div>
                 <p>
